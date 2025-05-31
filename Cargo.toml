@@ -1,0 +1,20 @@
+[package]
+name = "singleton"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lazy_static = "1.5.0"
+my_module = { path = "./my_module" }
+
+[[bin]]
+name = "safe_singleton"
+path = "safe_singleton/main.rs"
+
+[[bin]]
+name = "lazy_singleton"
+path = "lazy_singleton/main.rs"
+
+[[bin]]
+name = "singleton_using_mutex"
+path = "singleton_using_mutex/main.rs"

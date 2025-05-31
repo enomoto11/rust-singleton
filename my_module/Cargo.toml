@@ -1,0 +1,11 @@
+[package]
+name = "my_module"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "my_module"
+path = "lib.rs"
+
+[dependencies]
+derive-getters = "0.5.0"
